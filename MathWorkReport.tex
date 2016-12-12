@@ -1,0 +1,91 @@
+\documentclass[12pt]{article}
+\usepackage{MathWorkReport}
+\begin {document}
+
+%\UWtitle{report title} { workplace } {Name and Date}%
+\UWtitle{REPORT TITLE}
+{
+	COMPANY NAME\\
+	COMPANY LOCATION
+	}{
+	NAME\\
+	ID xxxxxxxx\\
+	3B Computer Science \\
+	DATE
+}
+
+% ABSTRACT LETTER %
+\begin{UWletter}
+Your letter...
+\end{UWletter}
+
+
+
+% TABLE OF CONTENTS%
+\UWtableofcontents
+
+
+
+% EXECUTIVE SUMMARY %
+\tocsection{Executive Summary}
+	Executive summary
+\newpage
+
+
+
+
+%from here, page numbering is different.%
+\pagenumbering{arabic}
+\ifoot[]{}
+\cfoot[]{}
+\ofoot[\pagemark]{\pagemark}
+\pagestyle{scrplain}
+
+
+
+
+%Introduction%
+\section{ Introduction }
+	Introuction
+
+
+%PURPOSE OF PERFORMANCE TESTING%
+\section{ example section }
+	blah blah blah
+	\subsection{ example subsection }
+	blah blah blah
+		
+
+\section{ example section}
+	blah blah blah
+
+%CONCLUSIONS%
+\section{ Conclusions }
+	Conclusions
+
+%RECOMMENDATIONS%
+\section{ Recommendations }
+Recommendations
+
+\newpage
+%REFERENCES%
+\addcontentsline{toc}{section}{\refname}
+\begin{thebibliography}{9}
+	\bibitem{test1}
+		"Example" \\ \url{http://google.ca} (April 2012 )
+\end{thebibliography}
+\newpage
+
+
+%GLOSSARY%
+\tocsection{Glossary}
+Glossay goes here
+\newpage
+
+
+%EVALUATION%
+\tocsection{Evaluation}
+
+
+\end{document}
+
