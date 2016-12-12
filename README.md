@@ -2,7 +2,9 @@
 
 [Mac OSX/ Linux]
 
-`` make && make clean && make view
+```
+ make && make clean && make view
+```
 
 [Windows]
 
