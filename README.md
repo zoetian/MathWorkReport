@@ -1,12 +1,9 @@
 # MathWorkReport
 
-[Mac OSX/ Linux]
-
 ```
  make && make clean && make view
 ```
 
-[Windows]
+See useful:
 
-Err, use Words then...
-
+https://www.reddit.com/r/uwaterloo/comments/2d8kge/last_work_term_with_no_work_report_subject_help/
